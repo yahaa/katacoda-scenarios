@@ -34,8 +34,13 @@
     }
   },
   "environment": {
+    "showdashboard": true,
+    "uieditorpath": "/root/demo",
+    "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
-    "uisettings": "python"
+    "uisettings": "python",
+    "hideintro": true,
+    "hidefinish": true
   },
   "files": [
     "Dockerfile",
