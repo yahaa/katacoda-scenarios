@@ -42,7 +42,8 @@
   },
   "files": [
     "Dockerfile",
-    "app.py"
+    "app.py",
+    "requestments.txt"
   ],
   "backend": {
     "imageid": "ubuntu"
