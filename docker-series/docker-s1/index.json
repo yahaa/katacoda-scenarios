@@ -34,8 +34,13 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal",
+    "uisettings": "python"
   },
+  "files": [
+    "Dockerfile",
+    "app.py"
+  ],
   "backend": {
     "imageid": "ubuntu"
   }
