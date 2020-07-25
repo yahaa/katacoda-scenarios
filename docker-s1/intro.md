@@ -1,22 +1,22 @@
 ### 概要 
-本教程属于入门级教程，主要包含 Docker 常用命令的基本使用、常用命令的实现原理
-
-### 常用命令
+本教程属于入门级教程，主要包含 Docker 常用命令的基本使用、常用命令的实现原理，具体分为如下5点
 
 #### step1 入门篇
 * `docker --help`
+* `docker run`
+* `docker ps`
 
 #### step2 镜像篇
 * `docker images`
 * `docker search`
 * `docker build`
+* `docker commit`
 * `docker pull`
+* `docker login`
 * `docker push`
 * `docker rmi`
 
 #### step3 容器篇
-* `docker run`
-* `docker ps`
 * `docker logs`
 * `docker top`
 * `docker exec`
