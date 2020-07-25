@@ -10,6 +10,7 @@
 #### step2 镜像篇
 * `docker build`
 * `docker images`
+* `docker logs`
 * `docker commit`
 * `docker login`
 * `docker search`
@@ -18,7 +19,8 @@
 * `docker rmi`
 
 #### step3 容器篇
-* `docker logs`
+* `docker stop`
+* `docker start`
 * `docker top`
 * `docker kill`
 * `docker rm`

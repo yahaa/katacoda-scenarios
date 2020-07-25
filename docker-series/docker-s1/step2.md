@@ -79,5 +79,5 @@ CMD ["python", "app.py"]
 ### 删除镜像
 `docker images`{{execute}} 查看镜像
 
-`docker rmi flask-app`{{execute}} 或者强制删除 `docker rmi flask-app`{{execute}} 
+`docker rmi flask-app:v1.0.0`{{execute}} 或者强制删除 `docker rmi flask-app:v1.0.0`{{execute}} 
 
