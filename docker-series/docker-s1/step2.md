@@ -36,3 +36,6 @@ RUN pip install -r requirements.txt
 CMD ["python", "app.py"]
 ```{{copy}}
 
+切换到 demo 目录 `cd demo`{{execute}} 构建镜像 `docker build -t flask-app:v1.0.0 .`{{execute}}，构建成功后执行 `docker images`{{execute}} 命令可以看到刚才我们构建的镜像。
+
+运行容器 `docker run -d -p 5050:5050 flask-app:v1.0.0`{{execute}}

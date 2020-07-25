@@ -7,9 +7,9 @@
 * `docker ps`
 
 #### step2 镜像篇
+* `docker build`
 * `docker images`
 * `docker search`
-* `docker build`
 * `docker commit`
 * `docker pull`
 * `docker login`
