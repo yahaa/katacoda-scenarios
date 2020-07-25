@@ -6,7 +6,9 @@
 
 运行一个 demo `docker run -d -p 8886:80 --name nginx-demo nginx`{{execute}}
 
-用 nsenter 进入容器的 network namespace `docker top nginx-demo| awk '{print $1}'| xargs -I pid nsenter -t pid -n`{{execute}}
+获取 containerID `docker ps`{{execute}}
+
+用 nsenter 进入容器的 network namespace `docker top <containerID> |grep -v PID| awk '{print $2}'| xargs -I pid nsenter -t pid -n`{{copy}}
 
 grep 关键字定位程序异常日志 `docker logs -f nginx-demo | grep xxx`{{execute}} 
 
