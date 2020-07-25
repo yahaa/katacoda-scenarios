@@ -2,7 +2,7 @@
 
 ### Dockerfile
 
-* 编写应用代码这里以 python 程序为例子 `app.py`{{open}}，复制如下代码:
+编写应用代码这里以 python 程序为例子 `app.py`{{open}}，复制如下代码:
 
 ```python
 from flask import Flask
@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 ```{{copy}}
 
-* 编写应用依赖 `requestments.txt`{{open}},复制如下代码:
+编写应用依赖 `requestments.txt`{{open}},复制如下代码:
 
 ```txt
 Flask==1.1.1
