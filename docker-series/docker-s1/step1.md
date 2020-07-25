@@ -6,7 +6,7 @@ Docker 是典型的 C/S 架构，其守护进程(dockerd)与命令行(docker)是
 #### 运行容器
 查看下如何运行容器 `docker run --help`{{execute}}
 
-后台启动一个 nginx 容器 `docker run -d nginx`{{execute}}
+后台启动一个 nginx 容器且给容器命名为 demo `docker run -d --name demo nginx`{{execute}}
 
 后台启动一个 nginx 并且对外暴露端口 `docker run -d -p 8080:80 nginx`{{execute}}
 
@@ -25,3 +25,5 @@ Docker 是典型的 C/S 架构，其守护进程(dockerd)与命令行(docker)是
 查看正在运行的容器 `docker ps`{{execute}}
 
 查看所有的容器 `docker ps -a`{{execute}}
+
+进入到容器内部 `docker exec -it demo bash`{{execute}}

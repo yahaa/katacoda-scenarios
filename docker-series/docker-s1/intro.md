@@ -5,21 +5,21 @@
 * `docker --help`
 * `docker run`
 * `docker ps`
+* `docker exec`
 
 #### step2 镜像篇
 * `docker build`
 * `docker images`
-* `docker search`
 * `docker commit`
-* `docker pull`
 * `docker login`
+* `docker search`
+* `docker pull`
 * `docker push`
 * `docker rmi`
 
 #### step3 容器篇
 * `docker logs`
 * `docker top`
-* `docker exec`
 * `docker kill`
 * `docker rm`
 
