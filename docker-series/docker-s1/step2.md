@@ -44,6 +44,10 @@ CMD ["python", "app.py"]
 
 运行容器 `docker run -d -p 5050:5050 --name flask-app flask-app:v1.0.0`{{execute}}
 
+验证下服务是否运行起来 `docker logs -f flask-app`{{execute interrupt}} 
+
+用 `curl http://127.0.0.1:5050`{{execute}}
+
 ### 用 commit 命令构建镜像
 
 进入到 flask-app 容器内，`docker exec -it flask-app bash`{{execute}}
