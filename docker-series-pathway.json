@@ -1,5 +1,11 @@
 {
   "title": "Docker 入门到精通",
-  "description": "本教程是 Docker 入门的一些基础教程",
-  "courses": []
+  "description": "本教程是 Docker 入门的一些基础教程，涉及 Docker 常用命令、Docker 镜像制作、Docker 维护组合命令",
+  "courses": [
+    {
+      "course_id": "docker-s1",
+      "title": "Docker 入门教程1",
+      "description": "本教程属于入门级教程，主要包含 Docker 常用命令的基本使用、常用命令的实现原理"
+    }
+  ]
 }
