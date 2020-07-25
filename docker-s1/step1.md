@@ -16,7 +16,7 @@ Docker 是典型的 C/S 架构，其守护进程(dockerd)与命令行(docker)是
 
 * 前台启动退出后自动删除镜像 `docker run -it --rm ubuntu bash`{{execute}}
 
-* 覆盖镜像指定的 entrypoint(常用来定检测镜像是否构建正确) `docker run -it --rm --entrypoint bash nginx` {{execute}}
+* 覆盖镜像指定的 entrypoint(常用来定检测镜像是否构建正确) `docker run -it --rm --entrypoint bash nginx`{{execute}}
 
 
 #### 查看容器详情
