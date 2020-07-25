@@ -17,7 +17,7 @@ if __name__ == '__main__':
 
 ```{{copy}}
 
-编写应用依赖 `requestments.txt`{{open}},复制如下代码:
+编写应用依赖 `requirements.txt`{{open}},复制如下代码:
 
 ```txt
 Flask==1.1.1
@@ -30,12 +30,16 @@ Flask==1.1.1
 FROM python
 WORKDIR /root/demo
 
-COPY app.py .
+COPY . .
 RUN pip install -r requirements.txt
 
 CMD ["python", "app.py"]
 ```{{copy}}
 
-切换到 demo 目录 `cd demo`{{execute}} 构建镜像 `docker build -t flask-app:v1.0.0 .`{{execute}}，构建成功后执行 `docker images`{{execute}} 命令可以看到刚才我们构建的镜像。
+切换到 demo 目录 `cd demo`{{execute}}
+
+构建镜像 `docker build -t flask-app:v1.0.0 .`{{execute}}
+
+构建镜像成功后执行 `docker images`{{execute}} 命令可以看到刚才我们构建的镜像
 
 运行容器 `docker run -d -p 5050:5050 flask-app:v1.0.0`{{execute}}
