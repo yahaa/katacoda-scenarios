@@ -40,7 +40,7 @@ CMD ["python", "app.py"]
 
 构建镜像 `docker build -t flask-app:v1.0.0 .`{{execute}}
 
-构建镜像成功后执行 `docker images`{{execute}} 命令可以看到刚才我们构建的镜像
+构建镜像成功后执行 `docker images | grep flask-app`{{execute}} 命令可以看到刚才我们构建的镜像
 
 运行容器 `docker run -d -p 5050:5050 --name flask-app flask-app:v1.0.0`{{execute}}
 
@@ -52,7 +52,7 @@ CMD ["python", "app.py"]
 
 执行 `docker commit flask-app flask-app:v1.0.1`{{execute}}
 
-再次执行 `docker images`{{execute}} 查看镜像
+再次执行 `docker images | grep flask-app`{{execute}} 查看镜像
 
 ### 发布镜像
 在发布镜像之前我们需要使用 `docker login`{{execute}} 命令登录到相关的 registy(默认登录到 docker hub),根据命令行提示，输入 username、password。
