@@ -38,9 +38,7 @@
     "uieditorpath": "/root/demo",
     "hideHiddenFiles": true,
     "uilayout": "editor-terminal",
-    "uisettings": "python",
-    "hideintro": true,
-    "hidefinish": true
+    "uisettings": "python"
   },
   "files": [
     "Dockerfile",
